@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "453307057232",
+    "firebase_url": "https://isec-4e548.firebaseio.com",
+    "project_id": "isec-4e548",
+    "storage_bucket": "isec-4e548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453307057232:android:8a6b98dccd80956b",
+        "android_client_info": {
+          "package_name": "dexter.com.isec17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453307057232-pb1dhhuek8re8d1086j3rn2boup2i0pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzPzg99ubIp9e-Vz9HwUlZuoxphsGex80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

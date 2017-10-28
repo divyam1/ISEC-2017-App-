@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp0">
+    <item
+        android:id="@+id/workshops"
+        android:title="Workshops"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/tutorials"
+        android:title="Tutorials"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/keytalks"
+        android:title="Key Talks"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/organization"
+        android:title="Organization"
+        android:checkable="true"/>
+     <item
+         android:id="@+id/schedule"
+         android:title="Schedule"
+         android:checkable="true"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+
+        <item
+            android:id="@+id/planner"
+            android:title="Planner"/>
+        <item
+            android:id="@+id/accomodation"
+            android:title="Accomodation" />
+
+        <item
+            android:id="@+id/sponsers"
+            android:title="Sponsers" />
+        <item
+            android:id="@+id/aboutLnmiit"
+            android:title="About Lnmiit" />
+        <item
+            android:id="@+id/contactUs"
+            android:title="Contact Us" />
+        </group>
+</menu>

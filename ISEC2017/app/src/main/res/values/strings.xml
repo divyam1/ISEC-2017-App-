@@ -1,6 +1,705 @@
 <resources>
-    <string name="app_name">ISEC  2017</string>
+    <string name="app_name">ISEC 17</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="backdrop_title">Sponsors</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="menu_type">
+        <item>WORKSHOPS</item>
+        <item>TUTORIALS</item>
+        <item>ACCOMODATION</item>
+        <item>SPONSORS</item>
+        <item>PLANNER</item>
+        <item>KEY TALKS</item>
+        <item>ORGANIZATION</item>
+        <item>SCHEDULE</item>
+        <item>About Lnmiit</item>
+        <item>Contact Us</item>
+    </string-array>
+    <string-array name="hotels_rating">
+        <item>3.3</item>
+        <item>14.8</item>
+        <item>14.5</item>
+        <item>11.3</item>
+        <item>17.5</item>
+        <item>18.1</item>
+        <item>13.4</item>
+        <item>12.6</item>
+        <item>12.7</item>
+        <item>20.4</item>
+        <item>19.9</item>
+        <item>12.3</item>
+        <item>21.2</item>
+        <item>18</item>
+        <item>20.4</item>
+        <item>18.2</item>
+        <item>19.9</item>
+        <item>20.2</item>
+        <item>21.4</item>
+        <item>21.5</item>
+        <item>13.1</item>
+    </string-array>
+    <string-array name="hotel_name">
+        <item>Hill Side Resort</item>
+        <item>lebua Resort</item>
+        <item>Grand Uniara A Heritage Hotel</item>
+        <item>The Oberoi Rajvilas</item>
+        <item>RAMBAGH PALACE, JAIPUR</item>
+        <item>Hotel Konark</item>
+        <item>Blue Bird Hotel</item>
+        <item>hotel apex karma</item>
+        <item>Hotel Rockland</item>
+        <item>Aditya Residency</item>
+        <item>S-57</item>
+        <item>Mango</item>
+        <item>Hotel Vrisa</item>
+        <item>Red Fox Hotel Jaipur</item>
+        <item>Taurus Hotel Angel</item>
+        <item>Hotel Jaipur Palace</item>
+        <item>Hotel Taran</item>
+        <item>Hotel Clarks Amer</item>
+        <item>The Fern - An Ecotel Hotel</item>
+        <item>Radisson Blu Jaipur</item>
+        <item>Ramada Jaipur</item>
+    </string-array>
+    <string-array name="hotel_contact">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+    <string-array name="hotels_weblink">
+        <item>http://www.hillsideresort.in/about.html</item>
+        <item>http://www.lebua.com/lebua-resort-jaipur</item>
+        <item>http://www.granduniara.com/</item>
+        <item>http://www.oberoihotels.com/hotels-in-jaipur-rajvilas-resort/</item>
+        <item>https://taj.tajhotels.com/en-in/taj-rambagh-palace-jaipur/</item>
+        <item>http://www.konarkpalacejaipur.com/</item>
+        <item>http://www.hotelbluebird.com/</item>
+        <item>http://www.apexgroupofhotels.com/jaipur/</item>
+        <item>http://www.hotelrocklandjaipur.in/</item>
+        <item>http://hotelangel.co.in/</item>
+        <item>www.s-57.in</item>
+        <item>http://www.mangohotelsandresorts.com/</item>
+        <item>http://www.hotelvrisa.com/</item>
+        <item>https://www.lemontreehotels.com/red-fox-hotel/jaipur/hotels-jaipur.aspx</item>
+        <item>http://hotelangel.co.in/</item>
+        <item>http://www.jaipurgreens.in/hotel-jaipur-palace.html</item>
+        <item>http://www.hoteltaran.com/</item>
+        <item>http://www.hotelclarks.com/clarks-amerjaipur/testimonial.php</item>
+        <item>http://www.fernhotels.com/</item>
+        <item>https://www.radissonblu.com/en/hotel-jaipur</item>
+        <item>http://ramadajaipur.com/</item>
+
+    </string-array>
+    <string-array name="hotels_price">
+        <item>INR 3000</item>
+        <item>INR 7200 - 50,000</item>
+        <item>INR 25000 - 30,000</item>
+        <item>INR 63000 - 6,00,000</item>
+        <item>INR 46350 - 3,50,000</item>
+        <item>INR 825 - 1500</item>
+        <item>INR 1059 - 2500</item>
+        <item>INR 1200 - 2600</item>
+        <item>INR 1300 - 2100</item>
+        <item>INR 1800 - 5000</item>
+        <item>INR 2000 - 3000</item>
+        <item>INR 2000 - 7000</item>
+        <item>INR 2799 - 3099</item>
+        <item>INR 2848 - 6997</item>
+        <item>INR 3000 - 5000</item>
+        <item>INR 3499 - 8099</item>
+        <item>INR 3499 - 8100</item>
+        <item>INR 3824 - 4724</item>
+        <item>INR 4199 - 8999</item>
+        <item>INR 4499 - 10474</item>
+        <item>INR 5999 - 10500</item>
+    </string-array>
+    <string-array name="hotel_address">
+        <item>Opposite Sumel Doongri,Keshav Vidhya Peeth,L.N. Mittal Road,Jamdoli,Jaipur</item>
+        <item>Agra Road, Tehsil Ballupura,Jamdoli, Rajasthan 302031</item>
+        <item>Jawaharlal Nehru Marg, Near Trimurti Circle, Jaipur, Rajasthan 302004</item>
+        <item>Goner Rd, Jagdish Colony, Paldi Meena, Jaipur, Rajasthan 302031</item>
+        <item>Bhawani Singh Rd, Rambagh, Jaipur, Rajasthan 302005</item>
+        <item>828-B, Ashok Chowk, Opp. I.O.C. Building, Adarsh Nagar Jaipur-302004, Rajasthan (INDIA)</item>
+        <item>349, Fashion Street, Raja Park, Jaipur-302004 (India)</item>
+        <item>A: 689, Frontier Colony (Near Baraf Khana), Adarsh Nagar, Jaipur</item>
+        <item>Hotel Rockland &amp; Restaurant S-8, Shri Gopal Nagar, Gopalpura By-Pass ( Main Road), Jaipur - 302019,(Rajasthan), INDIA</item>
+        <item> plot no.68, 302018, Panchasheel Enclave, Jawaharlal Nehru Marg, Lal Bahadur Nagar, Chandrakala Colony, Mata colony, Jaipur, Rajasthan 302004</item>
+        <item>Sanyam Marg, Adinath Nagar, JLN Marg, Jaipur, Rajasthan 302017</item>
+        <item>Govind Marg, Adarsh Nagar Jaipur- 302004, Rajasthan(India)</item>
+        <item>12, Airport plaza, Durgapura, Tonk road, Jaipur 302018,Rajasthan, INDIA</item>
+        <item>Opp. MNIT College, Jawahar Lal Nehru Marg, Bajaj Nagar, Jaipur, Rajasthan 302017</item>
+        <item>P. No. 81, Panchsheel Enclave, J.L.N. Marg, Near Jawahar Circle, Jaipur – 302018 (Raj.) India</item>
+        <item>Sahkar Marg, Tonk Road, Jaipur , Rajasthan, India 302015</item>
+        <item>S-6, Adinath Nagar,JLN Marg Opposite World Trade Park Malviya Nagar ,Rajasthan, India 302017</item>
+        <item>Jawahar Lal Nehru Marg, Ashok Nagar, Jaipur, India , Rajasthan, India 302018</item>
+        <item>Plot No. 3, Airport Plaza, Tonk Road, Durgpura, Chandrakala
+            Colony, Mata colony, Jaipur, Rajasthan 302016</item>
+        <item>Plot No. 5 - 6, Airport Plaza,Durgapura, Tonk Road Jaipur - 302018 ,India</item>
+        <item>Govind Marg, Raja Park, Jaipur, Rajasthan, INDIA</item>
+    </string-array>
+    <string-array name="hotels_image">
+        <item>http://www.hillsideresort.in/gallery-small/R.JPG</item>
+        <item>http://www.lebua.com/page/-/hero/lebua-resort-home.jpg/@mx_970</item>
+        <item>http://www.granduniara.com/admin/images/media/kszb9p_royal-super-delux2.jpg</item>
+        <item>http://www.oberoihotels.com/images/hotels-in-jaipur-rajvilas-resort/gallery/large/exterior-shot3.jpg</item>
+        <item>http://bstatic.com/images/hotel/org/209/20982652.jpg</item>
+        <item>http://www.konarkpalacejaipur.com/konark/index.12.jpg</item>
+        <item>http://www.hotelbluebird.com/image/hotel-home.jpg</item>
+        <item>http://www.apexgroupofhotels.com/jaipur/wp-content/uploads/2015/04/11.jpg</item>
+        <item>http://www.hotelrocklandjaipur.in/images/albums/1448262215_deluxe-room-2.jpg</item>
+        <item>http://hotelangel.co.in/wp-content/gallery/gallery_page/dsc_2560.jpg</item>
+        <item>http://www.s-57.in/images/thumb/5.jpg</item>
+        <item>http://www.mangohotelsandresorts.com/images/gallery11.jpg</item>
+        <item>http://www.hotelvrisa.com/images/thumb/9.jpg</item>
+        <item>https://www.lemontreehotels.com/getattachment/b29c40fd-5c52-45d9-bc6a-6bfa19838e6c/Superior%20Room.aspx</item>
+        <item>http://hotelangel.co.in/wp-content/gallery/gallery_page/dsc_2554.jpg</item>
+        <item>http://www.jaipurgreens.in/uploads/1/4/9/2/14928100/2379150_orig.jpg?0</item>
+        <item>http://www.hoteltaran.com/images/hpg-img5.jpg</item>
+        <item>http://www.hotelclarks.com/photogallery_jaipur/21.jpg</item>
+        <item>http://www.fernhotels.com/data/reward/1481034429_XQ6A3831.jpg</item>
+        <item>https://cache.carlsonhotels.com/galleries/radblu/photos/webextra/indrdja/home_marquee/INDRDJA_exterior_1440x550.jpg</item>
+        <item>http://ramadajaipur.com/images/banner7.jpg</item>
+    </string-array>
+    <string-array name="sponsors_gold">
+        <item>http://isec2017.in/img/TCS-logo.png</item>
+        <item>http://isec2017.in/img/Microsoft-Logo.png</item>
+        <item>http://isec2017.in/img/ACM-logo.png</item>
+        <item>http://isec2017.in/img/Logo-LNMIIT.png</item>
+
+    </string-array>
+    <string-array name="sponsors_silver">
+        <item>http://isec2017.in/img/Google.png</item>
+        <item>http://isec2017.in/img/Infosys_logo.png</item>
+        <item>http://isec2017.in/img/LDRA-logo.jpg</item>
+    </string-array>
+    <string name="title_activity_sponsors">SponsorsActivity</string>
+    <string-array name="workshop_title">
+        <item>Educational Data Mining Practices in Indian Academia</item>
+        <item>Software Engineering Education Workshop</item>
+        <item>DIAS (Development aspects of Intelligent Adaptive Systems)</item>
+        <item>Modelling Symposium</item>
+    </string-array>
+    <string-array name="workshop_presenter">
+        <item> 1. A. Rawal, (arpana.rawal@gmail.com) :
+              2. Ani Thomas
+        </item>
+        <item>1. Narasimha Bolloju (narsi.bolloju@lnmiit.ac.in) :
+                2: Sujit Kumar Chakrabarti (sujitkc@iiitb.ac.in)
+        </item>
+        <item>1. Swarup Mohalik (swarup.kumar.mohalik@ericsson.com) :
+            2. Meenakshi D\'Souza(meenakshi@iiitb.ac.in :
+            3. Mahesh Babu Jayaraman (mahesh.babu@ericsson.com)
+        </item>
+        <item>1: Vinay Kulkarni (vinay.vkulkarni@tcs.com) :
+2: Y Raghu Reddy (raghu.reddy@iiit.ac.in)
+        </item>
+    </string-array>
+    <string-array name="workshop_affiliation">
+        <item>Bhilai Institute of Technology, Durg </item>
+        <item>1: The LNM Institute of Information Technology, Jaipur, India. :
+2: IIIT Bangalore, INDIA
+</item>
+        <item>1: Ericsson Research, Bangalore, India :
+2: IIIT Bangalore India :
+3: Ericsson Research, Bangalore, India
+        </item>
+        <item>1:CHIEF SCIENTIST, TRDDC, TCS, Pune, India :
+2: IIIT-Hyderabad, India
+        </item>
+    </string-array>
+    <string-array name="workshop_start_time">
+        <item>09:30</item>
+        <item>09:30</item>
+        <item>09:30</item>
+        <item>09:30</item>
+    </string-array>
+    <string-array name="workshop_end_time">
+        <item>13:30</item>
+        <item>13:30</item>
+        <item>17:30</item>
+        <item>17:30</item>
+    </string-array>
+    <string-array name="workshop_date">
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+    </string-array>
+    <string-array name="workshop_area">
+        <item>LT-5(Academic Area)</item>
+        <item>LT-6(Academic Area)</item>
+        <item>LT-7(Academic Area)</item>
+        <item>LT-8(Academic Area)</item>
+    </string-array>
+
+    <string-array name="tutorial_title">
+        <item>Work System Theory and Work System Method: A Bridge between Business and IT Views of IT-Reliant Systems in Organization
+        </item>
+        <item>Conducting Systematic Literature Reviews and Systematic Mapping Studies
+        </item>
+        <item>Standards Driven Software Testing Best Practice</item>
+        <item>Software Quality Predictive Modeling: An Effective Assessment of Experimental Data</item>
+        <item>Engineering Smart Physical-Cyber-Social Systems</item>
+    </string-array>
+    <string-array name="tutorial_presenter">
+        <item>Steven Alter, Ph.D. (alter@usfca.edu)</item>
+        <item>1: Balbir S. Barn, Ph.D. (B.Barn@mdx.ac.uk) :
+2: Souvik Barat (souvik.barat@tcs.com) :
+3: Tony Clark, Ph.D. (T.Clark@shu.ac.uk)
+        </item>
+        <item>Sachin Diman (sachin.dhiman@ldra.com )
+        </item>
+        <item>Ruchika Malhotra, Ph.D. (ruchikamalhotra@dce.edu )</item>
+        <item>1: Pankesh Patel, Ph.D. (pankesh.patel@in.abb.com) :
+2: Ashok Kumar (ashok.kumar17@hpe.com) :
+3: Vishwas Lakkundi (vishwaskl@ieee.org)</item>
+    </string-array>
+    <string-array name="tutorial_affiliation">
+        <item>Professor Emeritus University of San Francisco San Francisco, USA</item>
+        <item>1: Deputy Dean School of Science &amp; Technology Middlesex University London, UK :
+2: Senior Scientist Tata Research Development &amp; Design Centre Pune, India  :
+3: Professor and Head Department of Computing Sheffield Hallam University Sheffield, UK
+</item>
+        <item>Technical Manager LDRA Technology Pvt. Ltd. New Delhi, India</item>
+        <item>Associate Head &amp; Assistant Professor Department of Software Engineering Delhi Technological University New Delhi, India</item>
+        <item>1: Research Scientist ABB Corporate Research India :
+2: Lead Data Scientist HPE Analytics Data Labs India :
+3: IoT Specialist &amp; Consultant Bengaluru, India</item>
+    </string-array>
+    <string-array name="tutorial_start_time">
+        <item>09:30</item>
+        <item>09:30</item>
+        <item>09:30</item>
+        <item>09:30</item>
+        <item>09:30</item>
+
+    </string-array>
+    <string-array name="tutorial_end_time">
+        <item>13:30</item>
+        <item>13:30</item>
+        <item>13:30</item>
+        <item>13:30</item>
+        <item>13:30</item>
+
+    </string-array>
+    <string-array name="tutorial_date">
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+        <item>05-02-2017</item>
+
+    </string-array>
+    <string-array name="tutorial_area">
+        <item>LT-1(Academic Area)</item>
+        <item>LT-2(Academic Area)</item>
+        <item>LT-3(Academic Area)</item>
+        <item>LT-4(Academic Area)</item>
+        <item>LT-5(Academic Area)</item>
+    </string-array>
+    <string name="title_activity_workshop">WorkshopActivity</string>
+    <string name="workshop_date">05-02-2017</string>
+    <string name="tutorial_date">05-02-2017</string>
+    <string name="title_activity_workshop_detail">WorkshopDetailActivity</string>
+    <string-array name="key_note_speakers">
+        <item>Sebastian Uchitel</item>
+        <item>Henderik A. Proper</item>
+    </string-array>
+    <string-array name="key_note_image">
+        <item>http://isec2017.in/img/foto_sebas_ch.jpg</item>
+        <item>http://isec2017.in/img/Keynote1.jpg</item>
+    </string-array>
+    <string-array name="key_note_occupation">
+        <item>Professor at University of Buenos Aires</item>
+        <item>Head of Academic Affairs at the Luxembourg Institute of Science and Technology (LIST)</item>
+    </string-array>
+    <string-array name="key_note_bio">
+        <item>Sebastian Uchitel is a Professor at University of Buenos Aires, researcher at the Argentine national research agency, CONICET, and holds a Readership at Imperial College London. He received his undergraduate Computer Science degree from University of Buenos Aires and his Phd in Computing from Imperial College London. His research interests are in behaviour modelling, analysis and synthesis applied to requirements engineering, software architecture and design, validation and verification, and adaptive systems. Dr. Uchitel was associate editor of the Transactions on Software Engineering and is currently associate editor of the Requirements Engineering Journal and the Science of Computer Programming Journal. He was program co-chair of ASE’06 and ICSE’10, and will be General Chair of ICSE 17 to be held in Buenos Aires. Dr Uchitel has been distinguished with the Philip Leverhulme Prize, ERC StG, the Konex Foundation Prize and the Houssay Prize.</item>
+        <item>Prof.dr. Henderik A. Proper, Erik to friends, is Head of Academic Affairs of at the Luxembourg Institute of Science and Technology (LIST) in Luxembourg, and senior research manager within IT for Innovative Services (ITIS) department of LIST. He also holds a chair in Information Systems at the Radboud University Nijmegen. Furthermore, he chairs the Enterprise Engineering research network involving researchers from a.o. these two institutions.
+
+Erik has a mixed background, covering a variety of roles in both academia and industry. His professional passion is the further development of the field of enterprise engineering and enterprise architecture. His long experience in teaching and coaching a wide variety of people enables him to involve and engage others in this development. He has co-authored several journal papers, conference publications and books. His main research interests include enterprise architecture, enterprise engineering, enterprise modelling, systems theory, business/IT alignment and conceptual modelling. Erik received his Master\'s degree from the University of Nijmegen, The Netherlands in May 1990, and received his PhD (with distinction) from the same University in April 1994. In his Doctoral thesis he developed a theory for conceptual modelling of evolving application domains, yielding a formal specification of evolving information systems.
+
+After receiving his PhD, Erik became a senior research fellow at the Computer Science Department of the University of Queensland, Brisbane, Australia. During that period he also conducted research in the Asymetrix Research Lab at that University for Asymetrix Corp, Seattle, Washington. In 1995 he became a lecturer at the School of Information Systems from the Queensland University of Technology, Brisbane, Australia. During this period he was also seconded as a senior researcher to the Distributed Systems Technology Centre (DSTC), a Cooperative Research Centres funded by the Australian government.
+
+From 1997 to 2001, Erik worked in industry. First as a consultant at Origin, Amsterdam, The Netherlands, and later as a research consultant and principal scientist at the Ordina Institute for Research and Innovation, Gouda, The Netherlands.
+
+In June 2001, Erik returned to academia, where he became an adjunct Professor at the Radboud University Nijmegen. In September 2002, Erik obtained a full-time Professorship position at the Radboud University Nijmegen. In Januari of 2008, he went back to combining industry and academia, by combining his Professorship with consulting and innovation at Capgemini, with the aim of more tightly combining his theoretical and practical work. Finally, in May 2010 Erik moved to the Luxembourg Institute of Science and Technology (formerly called the Public Research Centre - Henri Tudor) in Luxembourg, while continuing his chair at the Radboud University Nijmegen, The Netherlands.</item>
+
+    </string-array>
+
+    <string-array name="key_note_abstract">
+        <item>Self-adaptation is often loosely defined as the ability of systems to alter at runtime their behavior in response to changes in their environment, capabilities and goals. Yet we have been building self-adaptive systems have been engineered for decades. The shift from functional, input-output software, to reactive systems stems from the need to have software that can sense its environment, whose behavior is uncertain, and react accordingly.
+In this talk I will argue that this definition is too broad and that it dilutes a very real need for a particular quality of today’s software systems. I will postulate that a more refined definition of adaptation should emphasize the need for systems to have the ability to react to changes that were originally unforeseen at design time, and to provide assurances on the correctness of these adaptations.
+How can systems be designed to account for what is unforeseen? I will argue that a key design decision for achieving self-adaptation is to endow systems with the capability of synthesizing at runtime discrete event controllers. Indeed, reactive systems that are requirements and assumptions aware, if extended with run time controller synthesis capabilities are equipped with a powerful infrastructure towards achieving assured self-adaptation.
+The vision of runtime discrete event controller synthesis at the heart of self-adaptation requires developing appropriate architectures. I will discuss Morph, a reference architecture that can support not only runtime synthesis but also deal with two other crucial elements: (i) interface, requirements and assumption awareness and (ii) runtime controller deployment and dynamic structural and behavioral reconfiguration.
+</item>
+        <item>Change is a constant for most contemporary organisations, whether it is initiated top-down, or it emerges botom-up. One could even say that organisations are continuously in motion. Dealing with change in organisations can be approached from many different vantage points. In this presentation, we investigate two of these vantage points, while also trying to bridge between them. More specifically, we will look at Organisational Design, originating from social sciences, and Enterprise Engineering, originating from engineering sciences.
+Organisational Design considers organisations as the result of social interactions between (human) actors. By way of this interaction, the actors define and shape the organisation. This could, indeed, happen in a directive / top-down style, as well as in a more open / bottom-up style. Even more, ‘top-down’ decisions made by a few, might not actually be institutionalised by the many that may be effected by these decisions.
+Enterprise Engineering, also referred to as Organisational Engineering or Business Engineering, includes domains such as Business Process Management and Enterprise Architecture. It extrapolates from Software Engineering via Information Systems Engineering, to the engineering of organisations and their enterprises. The core tenet of Enterprise Engineering is to treat enterprises as purposefully designed artefacts. This may seem natural from an engineering point of view. But do organisations, being made up primarily from humans, behave rationally? Can organisations be engineered at all? Does the extrapolation hold?
+Organisational Design and Enterprise Engineering look at change in organizations from two different perspectives. Each perspective has a potential added value when dealing with change in organisations. They could be regarded as two sides of the same coin; the coin of organisational change. Or are they so different that we should really see them as different sides of different coins?
+In this presentation we will explore the tension between Organisational Design and Enterprise Engineering further, as well as the need / benefits of combining the two. In doing so, we will also consider the role of enterprise models as potential boundary objects between the social processes from an Organisational Design perspective, and the rationality-driven Enterprise Engineering processes. We suggest enterprise models as a possible way keep to ensure that the two sides of the coin are indeed two sides of the same coin.</item>
+    </string-array>
+    <string name="title_activity_speaker">SpeakerActivity</string>
+    <string name="transition_name">imgTransition</string>
+    <string-array name="day_1_start_time">
+        <item>9:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>12:30</item>
+        <item>14:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+    </string-array>
+    <string-array name="day_1_end_time">
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>12:30</item>
+        <item>14:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>17:30</item>
+    </string-array>
+    <string-array name="day_1_title">
+        <item>Tutorial(s)</item>
+        <item>Tea/Coffee Break</item>
+        <item>Tutorial(s)</item>
+        <item>Lunch</item>
+        <item>Tutorial(s)</item>
+        <item>Tea/Coffee Break</item>
+        <item>Tutorial(s)</item>
+    </string-array>
+    <string-array name="day_1_subtitle">
+        <item>T1 : Work System Theory and Work System Method
+                T2 : Conducting Systematic Literature Reviews
+                T3 :Standards Driven Software Testing Best Practice</item>
+        <item></item>
+        <item>T1 : Work System Theory and Work System Method
+                T2 : Conducting Systematic Literature Reviews
+                T3 :Standards Driven Software Testing Best Practice</item>
+        <item></item>
+        <item>T1 : Work System Theory and Work System Method
+                T2 : Conducting Systematic Literature Reviews
+                T3 :Standards Driven Software Testing Best Practice</item>
+        <item></item>
+        <item>T1 : Work System Theory and Work System Method
+                T2 : Conducting Systematic Literature Reviews
+                T3 :Standards Driven Software Testing Best Practice</item>
+    </string-array>
+    <string-array name="day_1_place">
+        <item>LT-5,9</item>
+        <item>LT-5,9 (Outside)</item>
+        <item>LT-5,9</item>
+        <item>Mess - A (Near Canteen)</item>
+        <item>LT-5,9</item>
+        <item>LT-5,9 (Outside)</item>
+        <item>LT-5,9</item>
+    </string-array>
+    <string-array name="day_2_start_time">
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:25</item>
+        <item>11:50</item>
+        <item>12:15</item>
+        <item>12:40</item>
+        <item>14:00</item>
+        <item>14:25</item>
+        <item>14:50</item>
+        <item>15:15</item>
+        <item>15:40</item>
+        <item>16:00</item>
+        <item>16:25</item>
+        <item>16:50</item>
+        <item>17:15</item>
+        <item>18:15</item>
+    </string-array>
+    <string-array name="day_2_end_time">
+        <item>09:30</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:25</item>
+        <item>11:50</item>
+        <item>12:15</item>
+        <item>12:40</item>
+        <item>14:00</item>
+        <item>14:25</item>
+        <item>14:50</item>
+        <item>15:15</item>
+        <item>15:40</item>
+        <item>16:00</item>
+        <item>16:25</item>
+        <item>16:50</item>
+        <item>17:15</item>
+        <item>17:40</item>
+        <item>21:30</item>
+    </string-array>
+    <string-array name="day_2_title">
+        <item>Opening Ceremony</item>
+        <item>KeyNote</item>
+        <item>High Tea</item>
+        <item>Research Track Paper</item>
+        <item>Research Track Paper</item>
+        <item>Research Track Paper</item>
+        <item>Research Track Paper</item>
+        <item>Lunch Break</item>
+        <item>Industry Track Paper</item>
+        <item>Industry Track Paper</item>
+        <item>Industry Track Paper</item>
+        <item>Industry Track Paper</item>
+        <item>Tea/Coffee Break</item>
+        <item>FSE 2016 Distinguished Paper</item>
+        <item>Research Track Paper</item>
+        <item>Research Track Paper</item>
+        <item>Research Track Paper</item>
+        <item>CULTURAL PROGRAM AND BANQUET DINNER</item>
+    </string-array>
+    <string-array name="day_2_subtitle">
+        <item> </item>
+        <item>Runtime Controller Synthesis for Self-Adaptation: Discretion Required”-- Sebastian Uchitel</item>
+        <item> </item>
+        <item>Empirical Analysis on Effectiveness of Source Code Metrics for Predicting Change-Proneness</item>
+        <item>A Model-Based Approach to Systematic Reviews of Research Literature</item>
+        <item>An Exploratory Study for Predicting Maintenance Effort using Hybridized Techniques</item>
+        <item>Software Engineering Aspects of Green and Sustainable Software: A Systematic Mapping Study</item>
+        <item> </item>
+        <item>Pragmatic Scrum Transformation: Challenges, Practices &amp; Impacts during the Journey A case study in a multi-location legacy software product development team</item>
+        <item>Setting Realistic Think Times in Performance Testing: A Practitioner’s Approach</item>
+        <item>Using Structured Text Source Code Metrics and Artificial Neural Networks to Predict Change Proneness at Code Tab and Program Organization Level</item>
+        <item>Semi-Automated Information Extraction from Unstructured Threat Advisories</item>
+        <item> </item>
+        <item>Preference Inconsistencies Ahead</item>
+        <item>Understanding the Roles of the Manager in Agile Project Management</item>
+        <item>An Aspect Oriented Approach for Re-narrating Web Content</item>
+        <item>Do Software Reliability Prediction Models meet industrial perceptions?</item>
+        <item> </item>
+    </string-array>
+    <string-array name="day_2_place">
+        <item>LT-9</item>
+        <item>LT-9</item>
+        <item>Mess-A (Near Canteen)</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>Mess-A (Near Canteen)</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>Mess-A (Near Canteen)</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>OAT (Behind Canteen)</item>
+    </string-array>
+    <string-array name="day_3_start_time">
+        <item>09:00</item>
+        <item>09:45</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:30</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>12:40</item>
+        <item>13:05</item>
+        <item>14:15</item>
+        <item>14:40</item>
+        <item>15:05</item>
+        <item>15:30</item>
+        <item>15:55</item>
+        <item>16:20</item>
+        <item>16:45</item>
+        <item>17:05</item>
+        <item>17:30</item>
+        <item>17:45</item>
+        <item>18:00</item>
+    </string-array>
+    <string-array name="day_3_end_time">
+        <item>09:45</item>
+        <item>10:45</item>
+        <item>11:15</item>
+        <item>11:30</item>
+        <item>11:45</item>
+        <item>12:15</item>
+        <item>12:40</item>
+        <item>13:05</item>
+        <item>14:15</item>
+        <item>14:40</item>
+        <item>15:05</item>
+        <item>15:30</item>
+        <item>15:55</item>
+        <item>16:20</item>
+        <item>16:45</item>
+        <item>17:05</item>
+        <item>17:30</item>
+        <item>17:45</item>
+        <item>18:00</item>
+        <item>18:15</item>
+    </string-array>
+    <string-array name="day_3_title">
+        <item>ACM SIGSOFT Town-Hall</item>
+        <item>Keynote</item>
+        <item>Tea/Coffee Break</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+        <item>Mobile Software Engineering Track Papers</item>
+        <item>Mobile Software Engineering Track Papers</item>
+        <item>Lunch Break</item>
+        <item>Industry Track Paper</item>
+        <item>Industry Track Paper</item>
+        <item>Industry Track Paper</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+        <item>Tea/Coffee Break</item>
+        <item>Reseach Track</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+        <item>Research Track</item>
+    </string-array>
+    <string-array name="day_3_subtitle">
+        <item>Nenad Medvidovic, Chair, ACM SIGSOFT</item>
+        <item>Organizational Design &amp; Enterprise Engineering –Two sides of the same coin?”,  Henderik A. Proper</item>
+        <item> </item>
+        <item>Ramp-up Journey of New Hires: Do strategic practices of software companies influence productivity?</item>
+        <item>A study on Migrating Flash files to HTML5/JavaScript</item>
+        <item>Unsupervised Learning Based Approach for Plagiarism Detection in Programming Assignments</item>
+        <item>Static Vulnerability Analysis for Secure Mobile Platforms</item>
+        <item>Dynamic Permissions based Android Malware Detection using Machine Learning Techniques</item>
+        <item> </item>
+        <item>Predicting budget for Crowdsourced Software development Tasks</item>
+        <item>A Crowdsourcing Approach for Quality Enhancement of eLearning Systems</item>
+        <item>Mitigating Browser-based DDoS Attacks using CORP</item>
+        <item>Empirical Assessment of Machine Learning Models for Effort Estimation of Web-based Applications</item>
+        <item>Actor Monitors for Adaptive Behaviour</item>
+        <item>An Approach to Mine Business Rule Intents from Domain-specific Documents</item>
+        <item> </item>
+        <item>Efficient Large-Scale Trace Checking Using MapReduce</item>
+        <item>Impact of Gamification on Code review process - An Experimental Study</item>
+        <item>An approach for secure software update in Infotainment system</item>
+        <item>A new semantic equivalence for real-time processes</item>
+    </string-array>
+    <string-array name="day_3_place">
+        <item>LT-9</item>
+        <item>LT-9</item>
+        <item>LT-9(Outside)</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item> </item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5 (Outside)</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+        <item>LT-5</item>
+    </string-array>
+    <string name="lnmiit_weblink">http://lnmiit.ac.in/</string>
+    <string name="about_lnmiit_details">The LNMIIT, Jaipur was founded in \ 2002 as a joint effort between Rajasthan State Government and Lakshmi and Usha Mittal Foundation\'s philanthropic initiative.
+        With the emphasis on quality and rigor in education, the Institute began its first academic session in July \ 2003 and was granted Deemed-to-be University status by UGC in \ 2006 under the De-Novo category.
+        The \ 100-acre green residential campus is located in a serene atmosphere on the outskirts of India\'s pink city, Jaipur.</string>
+
+    <string-array name="organisation_post">
+        <item>General Chair</item>
+        <item>Program Chair</item>
+        <item>Industry Track Program Chair</item>
+        <item>Mobile SE Track Program Chair</item>
+        <item>Proceedings Track Chair</item>
+        <item>Student Travel Grant Chair</item>
+        <item>Workshop Chair</item>
+        <item>Tutorial Chair</item>
+        <item>Finance Chair</item>
+        <item>Publicity Chair</item>
+        <item>Local Organizing Chair</item>
+        <item>Publicity Members</item>
+    </string-array>
+
+    <string-array name="organisation_memberName">
+        <item>Ravi Prakash Gorthi</item>
+        <item>Santonu Sarkar</item>
+        <item>Nenad Medvidovic</item>
+        <item>Vinay Kulkarni</item>
+        <item>Atul Kumar</item>
+        <item>Padmaja Joshi</item>
+        <item>Paola Inverardi</item>
+        <item>Ashish Sureka</item>
+        <item>Richa Sharma</item>
+        <item>Vikas Bajpai</item>
+        <item>Sujit Kumar Chakrabarti</item>
+        <item>Anh Nguyen-Duc </item>
+        <item>Narasimha Bolloju</item>
+        <item>Vijayan Sugumaran</item>
+        <item>Sakthi Balan</item>
+        <item>Meenakshi D\'Souza</item>
+        <item>Sandeep Saini</item>
+        <item>Vibha Singhal Sinha</item>
+        <item>Roberto Pietrantuono</item>
+        <item>Preety Singh</item>
+        <item>Rajbir Kaur</item>
+        <item>Sunil Kumar</item>
+        <item>Saikrishna</item>
+        <item>TBA</item>
+    </string-array>
+
+    <string-array name="organisation_memberDesignation">
+        <item>Professor of CSE, LNMIIT, Jaipur</item>
+        <item>Professor of CS-IS, BITS-P, Goa</item>
+        <item>Professor of CS, USC, LA</item>
+        <item> Chief Scientist, Tata Consultancy Services Research, TRDDC, Pune</item>
+        <item>Senior Research Scientist, IBM Research - India, Bangalore</item>
+        <item> Joint Director, CDAC, Mumbai</item>
+        <item> Professor of the Department of Information Engineering and Computer Science, University of L\'Aquila, Italy</item>
+        <item> Principal Scientist, ABB, Bangalore</item>
+        <item>BMU, Gurgaon</item>
+        <item>Professor of CSE, LNMIIT, Jaipur </item>
+        <item>Professor, IIIT-Bangalore</item>
+        <item> Post Doctoral Researcher,
+                Department of Computer and Information Science,
+                Norwegian University of Science and Technology, Trondheim </item>
+        <item>Professor of CSE, LNMIIT, Jaipur</item>
+        <item>Professor and Chair of IS, Oakland University, Rochester, USA</item>
+        <item>Professor of CSE, LNMIIT, Jaipur</item>
+        <item>Professor, IIIT-B</item>
+        <item>Professor, LNMIIT, Jaipur</item>
+        <item>Manager and STSM, Almaden Research Center, USA</item>
+        <item>Post-doc Research Fellow, University of Naples, Italy</item>
+        <item>Professor of CSE, LNMIIT, Jaipur</item>
+        <item> Professor of CSE, LNMIIT, Jaipur</item>
+        <item> Professor of CSE, LNMIIT, Jaipur</item>
+        <item>Graduate Student, IIIT-H </item>
+        <item>TBA</item>
+    </string-array>
 </resources>
